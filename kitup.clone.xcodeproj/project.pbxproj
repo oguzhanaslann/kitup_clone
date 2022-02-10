@@ -1,0 +1,590 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D4E7B25D27B5994300917532 /* kitup_cloneApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E7B25C27B5994300917532 /* kitup_cloneApp.swift */; };
+		D4E7B25F27B5994300917532 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E7B25E27B5994300917532 /* ContentView.swift */; };
+		D4E7B26127B5994400917532 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D4E7B26027B5994400917532 /* Assets.xcassets */; };
+		D4E7B26427B5994400917532 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D4E7B26327B5994400917532 /* Preview Assets.xcassets */; };
+		D4E7B26E27B5994500917532 /* kitup_cloneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E7B26D27B5994500917532 /* kitup_cloneTests.swift */; };
+		D4E7B27827B5994500917532 /* kitup_cloneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E7B27727B5994500917532 /* kitup_cloneUITests.swift */; };
+		D4E7B27A27B5994500917532 /* kitup_cloneUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E7B27927B5994500917532 /* kitup_cloneUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D4E7B26A27B5994500917532 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D4E7B25127B5994300917532 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D4E7B25827B5994300917532;
+			remoteInfo = kitup.clone;
+		};
+		D4E7B27427B5994500917532 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D4E7B25127B5994300917532 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D4E7B25827B5994300917532;
+			remoteInfo = kitup.clone;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D4E7B25927B5994300917532 /* kitup.clone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = kitup.clone.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4E7B25C27B5994300917532 /* kitup_cloneApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kitup_cloneApp.swift; sourceTree = "<group>"; };
+		D4E7B25E27B5994300917532 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D4E7B26027B5994400917532 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D4E7B26327B5994400917532 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D4E7B26927B5994500917532 /* kitup.cloneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = kitup.cloneTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4E7B26D27B5994500917532 /* kitup_cloneTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kitup_cloneTests.swift; sourceTree = "<group>"; };
+		D4E7B27327B5994500917532 /* kitup.cloneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = kitup.cloneUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4E7B27727B5994500917532 /* kitup_cloneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kitup_cloneUITests.swift; sourceTree = "<group>"; };
+		D4E7B27927B5994500917532 /* kitup_cloneUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kitup_cloneUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D4E7B25627B5994300917532 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4E7B26627B5994500917532 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4E7B27027B5994500917532 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D4E7B25027B5994300917532 = {
+			isa = PBXGroup;
+			children = (
+				D4E7B25B27B5994300917532 /* kitup.clone */,
+				D4E7B26C27B5994500917532 /* kitup.cloneTests */,
+				D4E7B27627B5994500917532 /* kitup.cloneUITests */,
+				D4E7B25A27B5994300917532 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D4E7B25A27B5994300917532 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D4E7B25927B5994300917532 /* kitup.clone.app */,
+				D4E7B26927B5994500917532 /* kitup.cloneTests.xctest */,
+				D4E7B27327B5994500917532 /* kitup.cloneUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D4E7B25B27B5994300917532 /* kitup.clone */ = {
+			isa = PBXGroup;
+			children = (
+				D4E7B25C27B5994300917532 /* kitup_cloneApp.swift */,
+				D4E7B25E27B5994300917532 /* ContentView.swift */,
+				D4E7B26027B5994400917532 /* Assets.xcassets */,
+				D4E7B26227B5994400917532 /* Preview Content */,
+			);
+			path = kitup.clone;
+			sourceTree = "<group>";
+		};
+		D4E7B26227B5994400917532 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D4E7B26327B5994400917532 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D4E7B26C27B5994500917532 /* kitup.cloneTests */ = {
+			isa = PBXGroup;
+			children = (
+				D4E7B26D27B5994500917532 /* kitup_cloneTests.swift */,
+			);
+			path = kitup.cloneTests;
+			sourceTree = "<group>";
+		};
+		D4E7B27627B5994500917532 /* kitup.cloneUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D4E7B27727B5994500917532 /* kitup_cloneUITests.swift */,
+				D4E7B27927B5994500917532 /* kitup_cloneUITestsLaunchTests.swift */,
+			);
+			path = kitup.cloneUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D4E7B25827B5994300917532 /* kitup.clone */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4E7B27D27B5994500917532 /* Build configuration list for PBXNativeTarget "kitup.clone" */;
+			buildPhases = (
+				D4E7B25527B5994300917532 /* Sources */,
+				D4E7B25627B5994300917532 /* Frameworks */,
+				D4E7B25727B5994300917532 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = kitup.clone;
+			productName = kitup.clone;
+			productReference = D4E7B25927B5994300917532 /* kitup.clone.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D4E7B26827B5994500917532 /* kitup.cloneTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4E7B28027B5994500917532 /* Build configuration list for PBXNativeTarget "kitup.cloneTests" */;
+			buildPhases = (
+				D4E7B26527B5994500917532 /* Sources */,
+				D4E7B26627B5994500917532 /* Frameworks */,
+				D4E7B26727B5994500917532 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D4E7B26B27B5994500917532 /* PBXTargetDependency */,
+			);
+			name = kitup.cloneTests;
+			productName = kitup.cloneTests;
+			productReference = D4E7B26927B5994500917532 /* kitup.cloneTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D4E7B27227B5994500917532 /* kitup.cloneUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4E7B28327B5994500917532 /* Build configuration list for PBXNativeTarget "kitup.cloneUITests" */;
+			buildPhases = (
+				D4E7B26F27B5994500917532 /* Sources */,
+				D4E7B27027B5994500917532 /* Frameworks */,
+				D4E7B27127B5994500917532 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D4E7B27527B5994500917532 /* PBXTargetDependency */,
+			);
+			name = kitup.cloneUITests;
+			productName = kitup.cloneUITests;
+			productReference = D4E7B27327B5994500917532 /* kitup.cloneUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D4E7B25127B5994300917532 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					D4E7B25827B5994300917532 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					D4E7B26827B5994500917532 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = D4E7B25827B5994300917532;
+					};
+					D4E7B27227B5994500917532 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = D4E7B25827B5994300917532;
+					};
+				};
+			};
+			buildConfigurationList = D4E7B25427B5994300917532 /* Build configuration list for PBXProject "kitup.clone" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D4E7B25027B5994300917532;
+			productRefGroup = D4E7B25A27B5994300917532 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D4E7B25827B5994300917532 /* kitup.clone */,
+				D4E7B26827B5994500917532 /* kitup.cloneTests */,
+				D4E7B27227B5994500917532 /* kitup.cloneUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D4E7B25727B5994300917532 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4E7B26427B5994400917532 /* Preview Assets.xcassets in Resources */,
+				D4E7B26127B5994400917532 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4E7B26727B5994500917532 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4E7B27127B5994500917532 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D4E7B25527B5994300917532 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4E7B25F27B5994300917532 /* ContentView.swift in Sources */,
+				D4E7B25D27B5994300917532 /* kitup_cloneApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4E7B26527B5994500917532 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4E7B26E27B5994500917532 /* kitup_cloneTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4E7B26F27B5994500917532 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4E7B27A27B5994500917532 /* kitup_cloneUITestsLaunchTests.swift in Sources */,
+				D4E7B27827B5994500917532 /* kitup_cloneUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D4E7B26B27B5994500917532 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D4E7B25827B5994300917532 /* kitup.clone */;
+			targetProxy = D4E7B26A27B5994500917532 /* PBXContainerItemProxy */;
+		};
+		D4E7B27527B5994500917532 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D4E7B25827B5994300917532 /* kitup.clone */;
+			targetProxy = D4E7B27427B5994500917532 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D4E7B27B27B5994500917532 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D4E7B27C27B5994500917532 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D4E7B27E27B5994500917532 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"kitup.clone/Preview Content\"";
+				DEVELOPMENT_TEAM = PGB4ZFDG33;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.oguzhan.kitup-clone";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D4E7B27F27B5994500917532 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"kitup.clone/Preview Content\"";
+				DEVELOPMENT_TEAM = PGB4ZFDG33;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.oguzhan.kitup-clone";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D4E7B28127B5994500917532 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PGB4ZFDG33;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.oguzhan.kitup-cloneTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/kitup.clone.app/kitup.clone";
+			};
+			name = Debug;
+		};
+		D4E7B28227B5994500917532 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PGB4ZFDG33;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.oguzhan.kitup-cloneTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/kitup.clone.app/kitup.clone";
+			};
+			name = Release;
+		};
+		D4E7B28427B5994500917532 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PGB4ZFDG33;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.oguzhan.kitup-cloneUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = kitup.clone;
+			};
+			name = Debug;
+		};
+		D4E7B28527B5994500917532 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PGB4ZFDG33;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.oguzhan.kitup-cloneUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = kitup.clone;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D4E7B25427B5994300917532 /* Build configuration list for PBXProject "kitup.clone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4E7B27B27B5994500917532 /* Debug */,
+				D4E7B27C27B5994500917532 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D4E7B27D27B5994500917532 /* Build configuration list for PBXNativeTarget "kitup.clone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4E7B27E27B5994500917532 /* Debug */,
+				D4E7B27F27B5994500917532 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D4E7B28027B5994500917532 /* Build configuration list for PBXNativeTarget "kitup.cloneTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4E7B28127B5994500917532 /* Debug */,
+				D4E7B28227B5994500917532 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D4E7B28327B5994500917532 /* Build configuration list for PBXNativeTarget "kitup.cloneUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4E7B28427B5994500917532 /* Debug */,
+				D4E7B28527B5994500917532 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D4E7B25127B5994300917532 /* Project object */;
+}
