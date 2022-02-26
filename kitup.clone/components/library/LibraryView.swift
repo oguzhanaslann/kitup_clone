@@ -28,9 +28,9 @@ struct LibraryView: View {
                     TabView(
                         selection: $selectedTab
                     ) {
-                        Text("Hello")
+                        MyLibraryView()
                             .tag(0)
-                        Text("World")
+                        BookHistoryView()
                             .tag(1)
                     }.tabViewStyle(
                         PageTabViewStyle(indexDisplayMode: .always)
