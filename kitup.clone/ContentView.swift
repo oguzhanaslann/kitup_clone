@@ -21,7 +21,8 @@ struct ContentView: View {
                 TabView {
                     HomepageView(
                         content: {
-                            Text("category from main")
+                            AllCategoriesView()
+                                .navigationBarTitleDisplayMode(.inline)
                         }
                     )
                         .tabItem {

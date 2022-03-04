@@ -21,7 +21,7 @@ struct SearchResultView: View {
             
             VStack(alignment:.leading){
                 Text("A List Item but long long long title ")
-                    .fontWeight(.bold)                    .padding(.bottom, 8 )
+                    .fontWeight(.bold).padding(.bottom, 8 )
                 Text("A Second List Item")
                     .padding(.bottom, 8 )
                 Text("A Third List Item")
