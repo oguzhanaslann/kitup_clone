@@ -7,8 +7,16 @@
 
 import SwiftUI
 
-struct CategoriesOverviewListView: View {
+struct CategoriesOverviewListView<Content: View>: View {
     let categoryOverviews : [CategoriesOverView]
+
+
+    let content: Content
+    
+    init(categoryOverviews : [CategoriesOverView],@ViewBuilder content: () -> Content) {
+        self.categoryOverviews = categoryOverviews
+        self.content = content()
+    }
     
     var body: some View {
         VStack {
@@ -16,13 +24,20 @@ struct CategoriesOverviewListView: View {
                 HStack {
                     Spacer().frame(width:8,height: 0)
                     ForEach(0..<categoryOverviews.count) { index in
-                        CategoryOverviewView(
-                            title: categoryOverviews[index].title,
-                            image: Image(
-                                categoryOverviews[index].image
-                            )
                         
-                        )
+                        
+                        NavigationLink {
+                            content
+                        } label: {
+                            CategoryOverviewView(
+                                title: categoryOverviews[index].title,
+                                image: Image(
+                                    categoryOverviews[index].image
+                                )
+                            )
+                        }
+
+
                     }
                     Spacer().frame(width:8,height: 0)
                 }
@@ -49,8 +64,11 @@ struct CategoriesOverviewListView_Previews: PreviewProvider {
                     id: "3",
                     title: "Sample",
                     image: ""
-                ),
-            ]
+                )
+            ],
+            content: {
+                
+            }
         )
     }
 }

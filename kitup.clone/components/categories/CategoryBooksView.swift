@@ -26,16 +26,16 @@ struct CategoryBooksView: View {
                             .blendMode(.multiply)
                             .frame(width: geometry.size.width, height: geometry.size.height)
                             .offset(
-                                y: geometry.frame(in: .global).minY/9
+                                y: -geometry.frame(in: .global).minY / 2
                             )
                     
                       
                         Text("Some Category")
                             .foregroundColor(.white)
                             .fontWeight(.bold)
-                            .font(.system(size: 24))
+                            .font(.system(size: 30))
                             .offset(
-                                y: -geometry.frame(in: .global).minY/2
+                                y: -geometry.frame(in: .global).minY / 2
                             )
                         
                     } else {
@@ -47,8 +47,7 @@ struct CategoryBooksView: View {
                                 height: geometry.size.height + geometry.frame(in: .global).minY
                             )
                             .clipped()
-                            .offset(y: -geometry.frame(in: .global).minY
-                            )
+                            .offset(y: -geometry.frame(in: .global).minY)
                         
                         Rectangle()
                             .fill(.black.opacity(0.2))
@@ -56,15 +55,14 @@ struct CategoryBooksView: View {
                             .frame(
                                 height: (geometry.frame(in: .global).maxY) 
                             )
-                            .offset(y: -geometry.frame(in: .global).minY
-                            )
+                            .offset(y: -geometry.frame(in: .global).minY)
                         
                         Text("Some Category")
                             .foregroundColor(.white)
                             .fontWeight(.bold)
-                            .font(.system(size: 24))
+                            .font(.system(size: 30))
                             .offset(
-                                y: -geometry.frame(in: .global).minY/2
+                                y: -geometry.frame(in: .global).minY / 2
                             )
                     }
                 }
@@ -80,7 +78,7 @@ struct CategoryBooksView: View {
             }.frame(
                 height: UIScreen.main.bounds.height * 0.67
             )
-        } 
+        }
     }
 }
 

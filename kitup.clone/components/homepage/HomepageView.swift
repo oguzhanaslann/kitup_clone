@@ -122,8 +122,9 @@ struct HomepageView<Content: View>: View {
                 }.padding(.horizontal)
                
                 CategoriesOverviewListView(
-                    categoryOverviews: categoryOverviews
-                )
+                    categoryOverviews: categoryOverviews) {
+                        CategoryBooksView()
+                    }
                 
                 Spacer().frame(height:32)
                 

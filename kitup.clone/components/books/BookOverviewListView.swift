@@ -17,17 +17,22 @@ struct BookOverviewListView: View {
                 HStack {
                     Spacer().frame(width:8,height: 0)
                     ForEach(0..<bookList.count) { index in
-                        BookOverviewView(
-                            image: Image(bookList[index].image),
-                            isAudible: bookList[index].isAudible,
-                            title: bookList[index].title,
-                            description: bookList[index].description,
-                            isFavorited: bookList[index].isFavorited,
-                            isFree: bookList[index].isFree,
-                            onFavoriteEvent: { _ in
-                                
-                            }
-                        )
+                        NavigationLink {
+                            BookDetailView()
+                        } label: {
+                            BookOverviewView(
+                                image: Image(bookList[index].image),
+                                isAudible: bookList[index].isAudible,
+                                title: bookList[index].title,
+                                description: bookList[index].description,
+                                isFavorited: bookList[index].isFavorited,
+                                isFree: bookList[index].isFree,
+                                onFavoriteEvent: { _ in
+                                    
+                                }
+                            )
+                        }
+
                     }
                     Spacer().frame(width:8,height: 0)
                 }
