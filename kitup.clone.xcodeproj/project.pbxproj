@@ -19,6 +19,7 @@
 		D4279AAB27B85CC10067FA2C /* LibraryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4279AAA27B85CC10067FA2C /* LibraryView.swift */; };
 		D4279AAD27B85F4B0067FA2C /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4279AAC27B85F4B0067FA2C /* ProfileView.swift */; };
 		D447452E27D2A37400BF29FF /* CategoryBookItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D447452D27D2A37400BF29FF /* CategoryBookItemView.swift */; };
+		D44B35C227D4017300B3E27E /* BottomSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D44B35C127D4017300B3E27E /* BottomSheetView.swift */; };
 		D44D36F927C9693E0057BCEA /* LanguageChangeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D44D36F827C9693E0057BCEA /* LanguageChangeView.swift */; };
 		D47A86B027B707C80017CA49 /* BookOverviewListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D47A86AF27B707C80017CA49 /* BookOverviewListView.swift */; };
 		D496488E27C042F30018ECDD /* ToolbarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D496488D27C042F30018ECDD /* ToolbarView.swift */; };
@@ -77,6 +78,7 @@
 		D4279AAA27B85CC10067FA2C /* LibraryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryView.swift; sourceTree = "<group>"; };
 		D4279AAC27B85F4B0067FA2C /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		D447452D27D2A37400BF29FF /* CategoryBookItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryBookItemView.swift; sourceTree = "<group>"; };
+		D44B35C127D4017300B3E27E /* BottomSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomSheetView.swift; sourceTree = "<group>"; };
 		D44D36F827C9693E0057BCEA /* LanguageChangeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguageChangeView.swift; sourceTree = "<group>"; };
 		D47A86AF27B707C80017CA49 /* BookOverviewListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookOverviewListView.swift; sourceTree = "<group>"; };
 		D496488D27C042F30018ECDD /* ToolbarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolbarView.swift; sourceTree = "<group>"; };
@@ -175,6 +177,14 @@
 				D4279AAC27B85F4B0067FA2C /* ProfileView.swift */,
 			);
 			path = profile;
+			sourceTree = "<group>";
+		};
+		D44B35C027D4016000B3E27E /* bottomSheet */ = {
+			isa = PBXGroup;
+			children = (
+				D44B35C127D4017300B3E27E /* BottomSheetView.swift */,
+			);
+			path = bottomSheet;
 			sourceTree = "<group>";
 		};
 		D496488C27C042DE0018ECDD /* common */ = {
@@ -282,6 +292,7 @@
 		D4E7B28627B59B6A00917532 /* components */ = {
 			isa = PBXGroup;
 			children = (
+				D44B35C027D4016000B3E27E /* bottomSheet */,
 				D4E87FA327D3F366000F8A2C /* tag */,
 				D4B37C7C27CA390400EAC120 /* representables */,
 				D4B37C7927CA259F00EAC120 /* language */,
@@ -489,6 +500,7 @@
 				D4E7B25D27B5994300917532 /* kitup_cloneApp.swift in Sources */,
 				D4E87FA227D3E77F000F8A2C /* BookDetailView.swift in Sources */,
 				D4C7292027D28E8200496E9A /* CategoryBooksView.swift in Sources */,
+				D44B35C227D4017300B3E27E /* BottomSheetView.swift in Sources */,
 				D49BF82327C7E70A00F649B8 /* MyLibraryView.swift in Sources */,
 				D44D36F927C9693E0057BCEA /* LanguageChangeView.swift in Sources */,
 				D4279AA527B8521C0067FA2C /* BookGroup.swift in Sources */,

@@ -161,9 +161,16 @@ struct BookDetailView: View {
                 }  .padding(.horizontal)
 
                 
-                BookOverviewListView(
-                    bookList: bookList
-                )
+                VStack(alignment:.leading) {
+                    Text("Suggested")
+                        .fontWeight(.bold)
+                        .font(.system(size: 28))
+                        .padding()
+                    
+                    BookOverviewListView(
+                        bookList: bookList
+                    )
+                }
                 
                 
                 VStack(alignment: .leading) {

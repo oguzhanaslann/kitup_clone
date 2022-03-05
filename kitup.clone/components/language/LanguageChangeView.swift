@@ -94,6 +94,7 @@ struct LanguageChangeView: View {
                 }
                 .padding()
                 
+                Spacer()
              
             }
         }

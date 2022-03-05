@@ -72,7 +72,12 @@ struct CategoryBooksView: View {
             
             VStack(alignment:.leading) {
                 List(0..<20) { _ in
-                    CategoryBookItemView(image: Image(""))
+                    NavigationLink {
+                        BookDetailView()
+                    } label: {
+                        CategoryBookItemView(image: Image(""))
+                    }
+
                 }
                 .listStyle(.plain)
             }.frame(

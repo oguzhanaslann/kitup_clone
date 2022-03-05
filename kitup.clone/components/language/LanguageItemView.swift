@@ -48,7 +48,7 @@ struct LanguageItemView: View {
                 .fontWeight(.semibold)
             Spacer()
                 .frame(height:50)
-                .background()
+                .background(.white.opacity(0.0))
             
             if(isSelected) {
                 Dot(
